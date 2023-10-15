@@ -3,13 +3,13 @@ const args = process.argv.slice(2);
 
 const a = 
   [
-    [parseInt(args[0]), parseInt(args[1])],
-    [parseInt(args[2]), parseInt(args[3])]
+    [parseFloat(args[0]), parseFloat(args[1])],
+    [parseFloat(args[2]), parseFloat(args[3])]
   ];
 const b = 
   [
-    [parseInt(args[4]), parseInt(args[5])],
-    [parseInt(args[6]), parseInt(args[7])]
+    [parseFloat(args[4]), parseFloat(args[5])],
+    [parseFloat(args[6]), parseFloat(args[7])]
   ]
 
 console.log("first matrix: ", a);
