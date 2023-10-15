@@ -24,3 +24,13 @@ This is equivalent of two matrices as follows:
 `matrix 2` =
  [51, 96],
  [23, 58]
+
+### Example output
+```sh
+first matrix:  [ [ 23, 42 ], [ 54, 23 ] ]
+second matrix:  [ [ 51, 95 ], [ 23, 58 ] ]
+
+
+multiplied matrix:  [ [ 2139 ], [ 4621 ], [ 3283 ], [ 6464 ] ]
+in 1180167 nanoseconds (~1 milliseconds)
+```
